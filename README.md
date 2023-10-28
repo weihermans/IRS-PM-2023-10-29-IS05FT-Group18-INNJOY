@@ -34,6 +34,7 @@ The above command will install Flask, Flask-CORS, Flask-SocketIO, NumPy, Pandas,
 **1.Start the Flask Server:**
 Run the following command to start the Flask server in the terminal or command prompt, navigate to the system code folder:
 	> python service.py
+ 
 **2.Access our System:**
 Once the Flask server is running, open your web browser. Enter the following URL to access the INNJOY Recommendation System: 
 	http://localhost:8000/index
