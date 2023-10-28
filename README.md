@@ -24,12 +24,16 @@ We sincerely hope you'll take a deeper look at InnJoy, confident in its potentia
 
 ## SECTION 3 : USER GUIDE
 #### Environment Requirement:
+
 **· Python 3.9: **
 Install it from the official Python website: https://www.python.org/
+
 **· Package: **
 Inside the system code folder, you will find a file named requirements.txt. Run the following command to install the required dependencies using pip:
+
 **> pip install -r requirements.txt**
 The above command will install Flask, Flask-CORS, Flask-SocketIO, NumPy, Pandas, TensorFlow, scikit-learn, joblib, Spacy, NLTK, and Folium packages necessary for the system to run.
+
 #### Running the System:
 **1.Start the Flask Server:**
 Run the following command to start the Flask server in the terminal or command prompt, navigate to the system code folder:
