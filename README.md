@@ -35,7 +35,7 @@ We sincerely hope you'll take a deeper look at InnJoy, confident in its potentia
 
 `System Modelling`
 
-[![Dog Breed Detective System Model](https://img.youtube.com/vi/T3FV5kbiTLQ/0.jpg)]( "Dog Breed Detective - System Modelling")
+[![BnB recommendation System Model](https://img.youtube.com/vi/T3FV5kbiTLQ/0.jpg)]("Innjoy - System Modelling")
 
 `Use Case Demo`
 
