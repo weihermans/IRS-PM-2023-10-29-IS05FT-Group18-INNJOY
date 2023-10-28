@@ -1,4 +1,4 @@
-# InnJoy：A-chatbot-driven-system-for-real-time-personalized-BnB-recommendations
+# InnJoy-A-chatbot-driven-system-for-real-time-personalized-BnB-recommendations
 ## SECTION 1: SUMMARY
 InnJoy—A chatbot-driven system for real-time personalized BnB recommendations
 
