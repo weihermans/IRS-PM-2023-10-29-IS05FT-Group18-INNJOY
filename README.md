@@ -1,4 +1,5 @@
 # InnJoy-A-chatbot-driven-system-for-real-time-personalized-BnB-recommendations
+## SECTION 1: SUMMARY
 InnJoy—A chatbot-driven system for real-time personalized BnB recommendations
 
 In today's era, the applications of deep learning and large language models are not merely confined to theoretical studies. Their practical applications have been widely demonstrated across various industries. Our team is dedicated to exploring these advanced technologies' real-world applications in the online BnB booking domain. As an indispensable service in daily life, users are increasingly demanding a more personalized and efficient recommendation system for online BnB platforms. Addressing this need, after extensive research and experimentation, our team developed "InnJoy—A chatbot-driven system for real-time personalized BnB recommendations." 
@@ -14,7 +15,7 @@ Product Features:
 To provide you with a comprehensive understanding of InnJoy's functionality and user experience, this report includes two videos: one detailing the front-end user interaction process and another elucidating the backend algorithm. The written portion delves into the technical details and model training processes. 
 We sincerely hope you'll take a deeper look at InnJoy, confident in its potential to revolutionize the online BnB booking landscape.
 
-## SECTION 1 : CREDITS / PROJECT CONTRIBUTION
+## SECTION 2 : CREDITS / PROJECT CONTRIBUTION
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
@@ -23,9 +24,9 @@ We sincerely hope you'll take a deeper look at InnJoy, confident in its potentia
 |||||
 |||||
 
-## SECTION 2 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
+## SECTION 3 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-## SECTION 3 : USER GUIDE
+## SECTION 4 : USER GUIDE
 ### Environment Requirement:
 **· Python 3.9:**   
 Install it from the official Python website: https://www.python.org/  
