@@ -35,7 +35,7 @@ We sincerely hope you'll take a deeper look at InnJoy, confident in its potentia
 
 `System Modelling`
 
-[![BnB recommendation System Model](https://img.youtube.com/vi/T3FV5kbiTLQ/0.jpg)]("Innjoy - System Modelling")
+[![BnB recommendation System Model](https://img.youtube.com/vi/t7P5J_ws2QU/0.jpg)](https://youtu.be/t7P5J_ws2QU "Innjoy - System Modelling")
 
 `Use Case Demo`
 
