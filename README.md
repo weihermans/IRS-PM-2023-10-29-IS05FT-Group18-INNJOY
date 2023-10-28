@@ -33,6 +33,13 @@ We sincerely hope you'll take a deeper look at InnJoy, confident in its potentia
 ---
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
+`System Modelling`
+
+[![Dog Breed Detective System Model](https://img.youtube.com/vi/T3FV5kbiTLQ/0.jpg)]( "Dog Breed Detective - System Modelling")
+
+`Use Case Demo`
+
+[![BnB recommendation Demo](http://img.youtube.com/vi/GVtvjns7x3k/0.jpg)](https://youtu.be/GVtvjns7x3k "Innjoy - Use Case Demo")
 ---
 
 ## SECTION 5 : USER GUIDE
