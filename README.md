@@ -36,15 +36,29 @@ We sincerely hope you'll take a deeper look at InnJoy, confident in its potentia
 ---
 
 ## SECTION 5 : USER GUIDE
+
 `Refer to appendix <Installation & User Guide> in project report at Github Folder: ProjectReport`
-### To run the system
-```
-pip install -r requirements.txt
-```
-```
-python -m spacy download en_core_web_lg
-```
-**Go to URL using web browser** http://127.0.0.1:8000/index
+
+### 1.1 Install Dependencies
+
+1. Install packages
+    
+        pip install -r requirements.txt
+
+2. Install Spacy package
+
+        python -m spacy download en_core_web_lg
+
+
+### 1.2 Starting the Web Application
+
+Run *service.py* script
+
+
+        python service.py
+
+Web is served on http://127.0.0.1:8000/index
+
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
