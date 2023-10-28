@@ -11,11 +11,15 @@ Product Features:
 To provide you with a comprehensive understanding of InnJoy's functionality and user experience, this report includes two videos: one detailing the front-end user interaction process and another elucidating the backend algorithm. The written portion delves into the technical details and model training processes. 
 We sincerely hope you'll take a deeper look at InnJoy, confident in its potential to revolutionize the online BnB booking landscape.
 
-## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
+## SECTION 1 : CREDITS / PROJECT CONTRIBUTION
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
+|||||
+|||||
+|||||
+|||||
 
-## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
+## SECTION 2 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-## SECTION 5 : USER GUIDE
+## SECTION 3 : USER GUIDE
