@@ -55,4 +55,5 @@ After logging in, you will be redirected to the Recommends page.
 · Use the chatbot interface to input your preferences and requirements for vacation rentals. The chatbot will guide you through the conversation, asking questions if necessary, to understand your preferences better.   
 · After each answer, the system will provide personalized recommended B&Bs based on your answer. You can click on the picture at any time to enter the B&B reservation page and view more detailed B&B information.  
 <img src="./img/ask.png"
-     style="float: left; margin-right: 0px;" />
+     style="float: left; margin-right: 0px;" />  
+**Wish you a happy use!**
