@@ -1,0 +1,18 @@
+# service.py dependencies
+flask
+flask_cors
+flask_socketio
+
+# Recommended dependencies
+numpy
+pandas
+tensorflow
+scikit-learn
+joblib
+
+# Question to feature dependencies
+spacy
+nltk
+
+# Random exploration dependencies
+folium

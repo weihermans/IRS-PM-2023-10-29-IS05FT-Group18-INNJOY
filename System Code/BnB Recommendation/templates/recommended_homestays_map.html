@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_588ae622a67d0df14999571fe3b5e1f9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    <title>Random Exploration</title>
+    
+            <div class="folium-map" id="map_588ae622a67d0df14999571fe3b5e1f9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_588ae622a67d0df14999571fe3b5e1f9 = L.map(
+                "map_588ae622a67d0df14999571fe3b5e1f9",
+                {
+                    center: [1.35, 103.8],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8ee8cf6421b2ca46cf9d8c6eee2a18a7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_588ae622a67d0df14999571fe3b5e1f9);
+        
+    
+            var marker_624fd94d6109fb360328d52ff9a6608c = L.marker(
+                [1.29995, 103.84956],
+                {}
+            ).addTo(map_588ae622a67d0df14999571fe3b5e1f9);
+        
+    
+            var icon_3641a9f91720b3175aa9185c52ec82b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_624fd94d6109fb360328d52ff9a6608c.setIcon(icon_3641a9f91720b3175aa9185c52ec82b7);
+        
+    
+        var popup_6b4accdb651a1dc6cb3b65d9b307e814 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffc479be33725f15062ec834b69881e4 = $(`<div id="html_ffc479be33725f15062ec834b69881e4" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/627993362264237393" target="_blank">Condo in Singapore · 1 bedroom · 1 bed · 1 bath<br><img src="https://a0.muscache.com/pictures/miso/Hosting-627993362264237393/original/31a708e1-e4ad-4365-8dd4-859d544a327a.jpeg" alt="Image" width="400"></a></div>`)[0];
+                popup_6b4accdb651a1dc6cb3b65d9b307e814.setContent(html_ffc479be33725f15062ec834b69881e4);
+            
+        
+
+        marker_624fd94d6109fb360328d52ff9a6608c.bindPopup(popup_6b4accdb651a1dc6cb3b65d9b307e814)
+        ;
+
+        
+    
+    
+            var marker_573d0ed5e37d7abe5b0cf71c7fa659f7 = L.marker(
+                [1.33185, 103.86606],
+                {}
+            ).addTo(map_588ae622a67d0df14999571fe3b5e1f9);
+        
+    
+            var icon_564161cb9e11352c9ab3cf9189f2fd1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_573d0ed5e37d7abe5b0cf71c7fa659f7.setIcon(icon_564161cb9e11352c9ab3cf9189f2fd1f);
+        
+    
+        var popup_6726f1a4fde702e3e98b0ec0c70df85a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63a2abf779afda7d9fa8172e2dd57e13 = $(`<div id="html_63a2abf779afda7d9fa8172e2dd57e13" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/36860135" target="_blank">Condo in Potong Pasir · 1 bedroom · 1 bed · 1 bath<br><img src="https://a0.muscache.com/pictures/51fac8fa-d1f3-4a14-928e-5ecf700aa6f0.jpg" alt="Image" width="400"></a></div>`)[0];
+                popup_6726f1a4fde702e3e98b0ec0c70df85a.setContent(html_63a2abf779afda7d9fa8172e2dd57e13);
+            
+        
+
+        marker_573d0ed5e37d7abe5b0cf71c7fa659f7.bindPopup(popup_6726f1a4fde702e3e98b0ec0c70df85a)
+        ;
+
+        
+    
+    
+            var marker_f6819ae97985dc30c9130c50d8432d91 = L.marker(
+                [1.29915, 103.83961],
+                {}
+            ).addTo(map_588ae622a67d0df14999571fe3b5e1f9);
+        
+    
+            var icon_bd9a2c8565a33709c44d3fa2f30cbce5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f6819ae97985dc30c9130c50d8432d91.setIcon(icon_bd9a2c8565a33709c44d3fa2f30cbce5);
+        
+    
+        var popup_8fd6c277d6279d1ee47cf4612b41a7da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62bb49133d3e8e94745fbbe7929d7aed = $(`<div id="html_62bb49133d3e8e94745fbbe7929d7aed" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/53070791" target="_blank">Condo in Singapore · 2 bedrooms · 3 beds · 2 baths<br><img src="https://a0.muscache.com/pictures/miso/Hosting-53070791/original/97af929d-72c5-4470-8941-9c4e3efb186f.jpeg" alt="Image" width="400"></a></div>`)[0];
+                popup_8fd6c277d6279d1ee47cf4612b41a7da.setContent(html_62bb49133d3e8e94745fbbe7929d7aed);
+            
+        
+
+        marker_f6819ae97985dc30c9130c50d8432d91.bindPopup(popup_8fd6c277d6279d1ee47cf4612b41a7da)
+        ;
+
+        
+    
+    
+            var marker_651c9c018f46aabfb7d46e3371c21c9a = L.marker(
+                [1.31068, 103.86118],
+                {}
+            ).addTo(map_588ae622a67d0df14999571fe3b5e1f9);
+        
+    
+            var icon_7f5ed39ad765d5a53675c0ae2b512604 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_651c9c018f46aabfb7d46e3371c21c9a.setIcon(icon_7f5ed39ad765d5a53675c0ae2b512604);
+        
+    
+        var popup_38803e2adbf32e080d192af878858810 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1edcb865807ae7e1c7f94aaf552cb0af = $(`<div id="html_1edcb865807ae7e1c7f94aaf552cb0af" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/38035489" target="_blank">Rental unit in Singapore · 1 bedroom · 1 bed · 3 shared baths<br><img src="https://a0.muscache.com/pictures/d172445e-dfd8-45d4-bd7e-4dae57f4dbc3.jpg" alt="Image" width="400"></a></div>`)[0];
+                popup_38803e2adbf32e080d192af878858810.setContent(html_1edcb865807ae7e1c7f94aaf552cb0af);
+            
+        
+
+        marker_651c9c018f46aabfb7d46e3371c21c9a.bindPopup(popup_38803e2adbf32e080d192af878858810)
+        ;
+
+        
+    
+    
+            var marker_2aabe1be08179eeef911476b1cdf66db = L.marker(
+                [1.28563, 103.84212],
+                {}
+            ).addTo(map_588ae622a67d0df14999571fe3b5e1f9);
+        
+    
+            var icon_04b944ec4c7e799f59e07f57aaec8c8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2aabe1be08179eeef911476b1cdf66db.setIcon(icon_04b944ec4c7e799f59e07f57aaec8c8a);
+        
+    
+        var popup_498777dca5bed51be437c77db0d43ab9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77dd6fcd629f09c47e61b802d2b7b986 = $(`<div id="html_77dd6fcd629f09c47e61b802d2b7b986" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/4869221" target="_blank">Rental unit in Singapore · 1 bedroom · 1 bed · 1 private bath<br><img src="https://a0.muscache.com/pictures/30f7fb9d-860c-4c26-b6bf-93561135a0ad.jpg" alt="Image" width="400"></a></div>`)[0];
+                popup_498777dca5bed51be437c77db0d43ab9.setContent(html_77dd6fcd629f09c47e61b802d2b7b986);
+            
+        
+
+        marker_2aabe1be08179eeef911476b1cdf66db.bindPopup(popup_498777dca5bed51be437c77db0d43ab9)
+        ;
+
+        
+    
+    
+            var marker_18f367960e15e81e73d3da1763ce0678 = L.marker(
+                [1.3073, 103.86344],
+                {}
+            ).addTo(map_588ae622a67d0df14999571fe3b5e1f9);
+        
+    
+            var icon_4fd0d3602bd212e6fd701ab742d2e712 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18f367960e15e81e73d3da1763ce0678.setIcon(icon_4fd0d3602bd212e6fd701ab742d2e712);
+        
+    
+        var popup_935350233e08fdefb002b6d4885dd16c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd2f4a7d465ee925c92b19618a62df26 = $(`<div id="html_dd2f4a7d465ee925c92b19618a62df26" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/7653937" target="_blank">Rental unit in Singapore · 1 bedroom · 1 bed · 3 shared baths<br><img src="https://a0.muscache.com/pictures/2709613f-2919-4e22-b56d-bd76c56ee91d.jpg" alt="Image" width="400"></a></div>`)[0];
+                popup_935350233e08fdefb002b6d4885dd16c.setContent(html_dd2f4a7d465ee925c92b19618a62df26);
+            
+        
+
+        marker_18f367960e15e81e73d3da1763ce0678.bindPopup(popup_935350233e08fdefb002b6d4885dd16c)
+        ;
+
+        
+    
+    
+            var marker_7ebd27b731bbe8c9936cc0b674ac1a28 = L.marker(
+                [1.29917, 103.83863],
+                {}
+            ).addTo(map_588ae622a67d0df14999571fe3b5e1f9);
+        
+    
+            var icon_488baebae26d218bfe2583245a2498ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ebd27b731bbe8c9936cc0b674ac1a28.setIcon(icon_488baebae26d218bfe2583245a2498ed);
+        
+    
+        var popup_9afef350968620c99e18d6d791eb228c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ebeb99395809311ae8a64893078d0e2 = $(`<div id="html_1ebeb99395809311ae8a64893078d0e2" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/32526213" target="_blank">Serviced apartment in Singapore · ★4.65 · 2 bedrooms · 1 bed · 1 bath<br><img src="https://a0.muscache.com/pictures/miso/Hosting-32526213/original/bf44c582-24af-4a4e-a3a5-fcaaba83c00a.jpeg" alt="Image" width="400"></a></div>`)[0];
+                popup_9afef350968620c99e18d6d791eb228c.setContent(html_1ebeb99395809311ae8a64893078d0e2);
+            
+        
+
+        marker_7ebd27b731bbe8c9936cc0b674ac1a28.bindPopup(popup_9afef350968620c99e18d6d791eb228c)
+        ;
+
+        
+    
+    
+            var marker_ff51a80e49049417f5a3a3a4e5c1393d = L.marker(
+                [1.28313, 103.84356],
+                {}
+            ).addTo(map_588ae622a67d0df14999571fe3b5e1f9);
+        
+    
+            var icon_98a289619a290521eee063c502b987c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ff51a80e49049417f5a3a3a4e5c1393d.setIcon(icon_98a289619a290521eee063c502b987c9);
+        
+    
+        var popup_c1e6076800ce57e9e1399c123b1c5556 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8bcd51358a62aa7abf6e01de6fab884 = $(`<div id="html_d8bcd51358a62aa7abf6e01de6fab884" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/8914905" target="_blank">Bed and breakfast in Singapore · ★4.67 · 1 bedroom · 7 beds · Shared half-bath<br><img src="https://a0.muscache.com/pictures/miso/Hosting-8914905/original/9ec63611-0f23-4555-9232-766ce1a9e90a.jpeg" alt="Image" width="400"></a></div>`)[0];
+                popup_c1e6076800ce57e9e1399c123b1c5556.setContent(html_d8bcd51358a62aa7abf6e01de6fab884);
+            
+        
+
+        marker_ff51a80e49049417f5a3a3a4e5c1393d.bindPopup(popup_c1e6076800ce57e9e1399c123b1c5556)
+        ;
+
+        
+    
+    
+            var marker_633eab2bf9f72f5b2bbe1948d5ceaa5c = L.marker(
+                [1.28173, 103.84612],
+                {}
+            ).addTo(map_588ae622a67d0df14999571fe3b5e1f9);
+        
+    
+            var icon_53b762d747aae95bcb68cf697c3828af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_633eab2bf9f72f5b2bbe1948d5ceaa5c.setIcon(icon_53b762d747aae95bcb68cf697c3828af);
+        
+    
+        var popup_9982cd423cfbe5275246c4336d9a9215 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21f3b9030bf6390cea7fe666fff15ccc = $(`<div id="html_21f3b9030bf6390cea7fe666fff15ccc" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/31960810" target="_blank">Boutique hotel in Singapore · ★4.57 · 1 bedroom · 1 bed · 1 private bath<br><img src="https://a0.muscache.com/pictures/b73bb8ba-80fc-46e3-b07c-06c8873a47ec.jpg" alt="Image" width="400"></a></div>`)[0];
+                popup_9982cd423cfbe5275246c4336d9a9215.setContent(html_21f3b9030bf6390cea7fe666fff15ccc);
+            
+        
+
+        marker_633eab2bf9f72f5b2bbe1948d5ceaa5c.bindPopup(popup_9982cd423cfbe5275246c4336d9a9215)
+        ;
+
+        
+    
+    
+            var marker_e31af9a7e69a8a5aee114f7077190743 = L.marker(
+                [1.3356, 103.86592],
+                {}
+            ).addTo(map_588ae622a67d0df14999571fe3b5e1f9);
+        
+    
+            var icon_a2daa87ca44bbb4e7bbbcd5d9b2f504a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e31af9a7e69a8a5aee114f7077190743.setIcon(icon_a2daa87ca44bbb4e7bbbcd5d9b2f504a);
+        
+    
+        var popup_60c10c38dc7a7fe73d0b2d901fb1d237 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd20fe4944dc280839bb10eebf4aa616 = $(`<div id="html_cd20fe4944dc280839bb10eebf4aa616" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/5704432" target="_blank">Rental unit in Singapore · 1 bedroom · 1 bed · 2 shared baths<br><img src="https://a0.muscache.com/pictures/70980966/767e2fa2_original.jpg" alt="Image" width="400"></a></div>`)[0];
+                popup_60c10c38dc7a7fe73d0b2d901fb1d237.setContent(html_cd20fe4944dc280839bb10eebf4aa616);
+            
+        
+
+        marker_e31af9a7e69a8a5aee114f7077190743.bindPopup(popup_60c10c38dc7a7fe73d0b2d901fb1d237)
+        ;
+
+        
+    
+    
+            var marker_c8d8a14e02a67975c8a6b9df1d3b9642 = L.marker(
+                [1.28647, 103.85029],
+                {}
+            ).addTo(map_588ae622a67d0df14999571fe3b5e1f9);
+        
+    
+            var icon_f4be4a96d21e9b44524d20a0c294cdd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c8d8a14e02a67975c8a6b9df1d3b9642.setIcon(icon_f4be4a96d21e9b44524d20a0c294cdd7);
+        
+    
+        var popup_67dd0eb53e1e721d999cadcb60e54d2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e22e0415d15420ebc962ca60bef20313 = $(`<div id="html_e22e0415d15420ebc962ca60bef20313" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/9910891" target="_blank">Hostel in Singapore · ★4.74 · 1 bedroom · 28 beds · 7 shared baths<br><img src="https://a0.muscache.com/pictures/23f8dc04-27ea-4ad9-bbbc-7d824cffad61.jpg" alt="Image" width="400"></a></div>`)[0];
+                popup_67dd0eb53e1e721d999cadcb60e54d2d.setContent(html_e22e0415d15420ebc962ca60bef20313);
+            
+        
+
+        marker_c8d8a14e02a67975c8a6b9df1d3b9642.bindPopup(popup_67dd0eb53e1e721d999cadcb60e54d2d)
+        ;
+
+        
+    
+    
+            var marker_9ab8684677e605545997be28360ba818 = L.marker(
+                [1.31854, 103.88207],
+                {}
+            ).addTo(map_588ae622a67d0df14999571fe3b5e1f9);
+        
+    
+            var icon_ebdc20da6639a1954eb2714403777478 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ab8684677e605545997be28360ba818.setIcon(icon_ebdc20da6639a1954eb2714403777478);
+        
+    
+        var popup_7b9e36f275107b094cdf37aea570d50d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e10b98202002ee6adc6dc3011dbe4c8 = $(`<div id="html_6e10b98202002ee6adc6dc3011dbe4c8" style="width: 100.0%; height: 100.0%;"><a href="https://www.airbnb.com/rooms/40479903" target="_blank">Rental unit in Singapore · 1 bedroom · 1 bed · 1 shared bath<br><img src="https://a0.muscache.com/pictures/f8a06468-3b4c-4e4c-acb1-457a320d7fed.jpg" alt="Image" width="400"></a></div>`)[0];
+                popup_7b9e36f275107b094cdf37aea570d50d.setContent(html_6e10b98202002ee6adc6dc3011dbe4c8);
+            
+        
+
+        marker_9ab8684677e605545997be28360ba818.bindPopup(popup_7b9e36f275107b094cdf37aea570d50d)
+        ;
+
+        
+    
+</script>
+</html>
