@@ -25,7 +25,7 @@ We sincerely hope you'll take a deeper look at InnJoy, confident in its potentia
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-|WWEICHUANJIE|A0285709N|Idea and NCF|hermans@foxmail.com|
+|WEICHUANJIE|A0285709N|Idea and NCF model|hermans@foxmail.com|
 |||||
 |||||
 |||||
