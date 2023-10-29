@@ -25,7 +25,7 @@ We sincerely hope you'll take a deeper look at InnJoy, confident in its potentia
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-|WEICHUANJIE|A0285709N|Idea and NCF model|hermans@foxmail.com|
+|WEICHUANJIE|A0285709N|1.Ideation<br/>2.NCF model<br/>3.Project report writing<br/>4.team management|e1221521@u.nus.edu|
 |||||
 |Yan Zihan|A0285706W|1.Ideation<br/>2.Data Acquisition & Processing<br/>3.Random Forest Development<br/>4.Testing and Troubleshooting<br/>5.Project report writing and video making|e1221518@u.nus.edu|
 |||||
