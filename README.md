@@ -29,6 +29,8 @@ We sincerely hope you'll take a deeper look at InnJoy, confident in its potentia
 |||||
 |Yan Zihan|A0285706W|1.Ideation<br/>2.Data Acquisition & Processing<br/>3.Random Forest Development<br/>4.Testing and Troubleshooting<br/>5.Project report writing and video making|e1221518@u.nus.edu|
 |||||
+|Zhang Yaoxi|A0285851U|1.User Interaction Design and Frontend Development<br/>2.Backend Development<br/>3.System Integration and Database Management<br/>4.Project Management<br/>5.Project report writing and schematic diagrams drawing|e1221663@u.nus.edu|
+|||||
 
 ---
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
