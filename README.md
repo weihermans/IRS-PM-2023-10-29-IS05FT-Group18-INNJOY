@@ -40,6 +40,7 @@ We sincerely hope you'll take a deeper look at InnJoy, confident in its potentia
 `Use Case Demo`
 
 [![BnB recommendation Demo](http://img.youtube.com/vi/GVtvjns7x3k/0.jpg)](https://youtu.be/GVtvjns7x3k "Innjoy - Use Case Demo")
+
 ---
 
 ## SECTION 5 : USER GUIDE
