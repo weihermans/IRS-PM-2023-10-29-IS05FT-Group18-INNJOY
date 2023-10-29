@@ -27,7 +27,7 @@ We sincerely hope you'll take a deeper look at InnJoy, confident in its potentia
 | :------------ |:---------------:| :-----| :-----|
 |WEICHUANJIE|A0285709N|Idea and NCF model|hermans@foxmail.com|
 |||||
-|||||
+|Yan Zihan|A0285706W|1.Ideation<br/>2.Data Acquisition & Processing<br/>3.Random Forest Development<br/>4.Testing and Troubleshooting<br/>5.Project report writing and video making|e1221518@u.nus.edu|
 |||||
 
 ---
